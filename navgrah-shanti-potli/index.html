@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>अभिमंत्रित नवग्रह शांति पोटली | Astrowala</title>
+<meta name="description" content="एस्ट्रोवाला मंदीप चौहान जी द्वारा अभिमंत्रित नवग्रह शांति पोटली — नौ ग्रहों के अशुभ प्रभाव को शांत करने के लिए। ₹5,100 + GST" />
+<link rel="icon" href="https://astrowala.com/assets/brand/cropped-logo-for-website.png" />
+<style>
+  :root {
+    --black: #0b0b0f;
+    --card: #363741;
+    --yellow: #f8d10a;
+    --red: #f61f0f;
+    --blue: #00acff;
+    --ink: #171616;
+    --soft: #f8f8f8;
+    --grad: linear-gradient(90deg, #f61f0f, #f8d10a);
+    box-sizing: border-box;
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans Devanagari", sans-serif; color: var(--ink); background: #fff; }
+  .pt-page { overflow: hidden; }
+  img { max-width: 100%; display: block; }
+  ul { margin: 0; padding: 0; list-style: none; }
+  p, h1, h2, h3 { margin: 0; }
+  .pt-container { margin: 0 auto; max-width: 1024px; }
+  .pt-section-title { text-align: center; font-size: 1.9rem; font-weight: 700; line-height: 1.3; }
+  @media (min-width: 640px) { .pt-section-title { font-size: 40px; } }
+  .pt-section-sub { margin: 12px auto 0; max-width: 680px; text-align: center; font-size: 1.05rem; line-height: 1.6; }
+
+  /* ---------- Buttons ---------- */
+  .pt-btn {
+    background: var(--grad);
+    display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+    border-radius: 4px; padding: 14px 30px;
+    font-size: 1.1rem; font-weight: 700; color: #fff; text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    transition: filter 150ms ease, transform 150ms ease;
+  }
+  .pt-btn:hover { filter: brightness(1.1); transform: translateY(-1px); }
+  .pt-btn svg { width: 22px; height: 22px; flex-shrink: 0; }
+  .pt-btn-outline { background: transparent; border: 2px solid var(--yellow); color: var(--yellow); box-shadow: none; }
+  .pt-cta-row { margin-top: 28px; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+
+  /* ---------- Top strip ---------- */
+  .pt-strip { background: var(--grad); padding: 8px 16px; text-align: center; font-size: 0.95rem; font-weight: 700; color: #fff; }
+
+  /* ---------- Hero ---------- */
+  .pt-hero {
+    background-color: var(--black);
+    background-image: url('https://astrowala.com/assets/2025/04/Banner-BG.webp');
+    background-position: right center; background-repeat: no-repeat;
+    padding: 40px 20px 48px; color: #fff;
+  }
+  @media (min-width: 640px) { .pt-hero { padding: 64px 20px; } }
+  .pt-hero-grid { display: grid; gap: 36px; align-items: center; grid-template-columns: 1fr; text-align: center; }
+  @media (min-width: 900px) { .pt-hero-grid { grid-template-columns: 1.1fr 1fr; text-align: left; } .pt-hero .pt-cta-row { justify-content: flex-start; } }
+  .pt-hero-logo { height: 52px; width: auto; margin: 0 auto 20px; }
+  @media (min-width: 900px) { .pt-hero-logo { margin-left: 0; } }
+  .pt-hero-tag { display: inline-block; border: 1px solid var(--yellow); border-radius: 999px; padding: 6px 16px; font-size: 0.95rem; font-weight: 600; color: var(--yellow); }
+  .pt-hero h1 { margin-top: 16px; font-size: 2.3rem; font-weight: 800; line-height: 1.2; color: var(--yellow); }
+  @media (min-width: 640px) { .pt-hero h1 { font-size: 3.4rem; } }
+  .pt-hero h2 { margin-top: 14px; font-size: 1.35rem; font-weight: 600; line-height: 1.5; color: var(--blue); }
+  @media (min-width: 640px) { .pt-hero h2 { font-size: 1.7rem; } }
+  .pt-hero-points { margin-top: 20px; display: grid; gap: 8px; font-size: 1.05rem; text-align: left; max-width: 460px; margin-left: auto; margin-right: auto; }
+  @media (min-width: 900px) { .pt-hero-points { margin-left: 0; } }
+  .pt-hero-points li { display: flex; gap: 10px; }
+  .pt-hero-points li::before { content: "✓"; color: var(--yellow); font-weight: 800; }
+
+  .pt-price { margin-top: 24px; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: 10px; }
+  @media (min-width: 900px) { .pt-price { justify-content: flex-start; } }
+  .pt-price b { font-size: 2.6rem; line-height: 1; color: #fff; }
+  .pt-price span { font-size: 1.1rem; font-weight: 600; color: #cfcfcf; }
+
+  /* Orbit visual: 9 grahas around the potli */
+  .pt-orbit { position: relative; margin: 0 auto; width: min(88vw, 440px); aspect-ratio: 1; }
+  .pt-orbit-ring { position: absolute; inset: 7%; border-radius: 50%; border: 2px dashed rgba(248,209,10,0.45); animation: spin 60s linear infinite; }
+  .pt-orbit-core { position: absolute; inset: 20%; border-radius: 50%; overflow: hidden; border: 4px solid var(--yellow); box-shadow: 0 0 60px rgba(248,209,10,0.35); background: #2a1a10; }
+  .pt-orbit-core img { width: 100%; height: 100%; object-fit: cover; }
+  .pt-planet {
+    position: absolute; left: 50%; top: 50%;
+    width: 15%; aspect-ratio: 1; margin: -7.5% 0 0 -7.5%;
+    display: grid; place-items: center; border-radius: 50%;
+    background: var(--card); border: 2px solid var(--yellow);
+    font-size: clamp(16px, 4.6vw, 24px); color: var(--yellow);
+    transform: rotate(var(--a)) translateY(-280%) rotate(calc(-1 * var(--a)));
+  }
+  .pt-planet small { position: absolute; top: 102%; white-space: nowrap; font-size: 11px; font-weight: 600; color: #fff; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .pt-orbit-ring { animation: none; } }
+
+  /* ---------- Feature strip ---------- */
+  .pt-features { background: var(--black); padding: 0 20px 36px; }
+  .pt-features-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (min-width: 1024px) { .pt-features-grid { grid-template-columns: repeat(4, 1fr); } }
+  .pt-feature-card { display: flex; min-height: 64px; align-items: center; justify-content: center; gap: 10px; border-radius: 12px; background: var(--card); padding: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #fff; }
+  .pt-feature-card .ico { font-size: 28px; line-height: 1; flex-shrink: 0; }
+  .pt-feature-card small { display: block; color: var(--yellow); }
+
+  /* ---------- Quote ---------- */
+  .pt-quote-wrap { padding: 40px 20px; }
+  .pt-quote { margin: 0 auto; max-width: 1024px; border-radius: 12px; border: 3px dashed var(--ink); background: var(--yellow); padding: 24px 20px; text-align: center; font-size: 1.25rem; font-weight: 600; line-height: 1.6; }
+  @media (min-width: 640px) { .pt-quote { font-size: 27px; line-height: 43px; } }
+  .pt-quote footer { margin-top: 8px; font-size: 1rem; font-weight: 500; }
+
+  /* ---------- Problems (graha kharab) ---------- */
+  .pt-problems { padding: 8px 20px 48px; }
+  .pt-problems .pt-section-title { color: var(--red); }
+  .pt-graha-grid { margin-top: 32px; display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 640px) { .pt-graha-grid { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 1024px) { .pt-graha-grid { grid-template-columns: repeat(3, 1fr); } }
+  .pt-graha-card { display: flex; gap: 14px; border-radius: 16px; border: 2px dashed #1f3944; background: #fff; padding: 16px; }
+  .pt-graha-sym { flex-shrink: 0; width: 54px; height: 54px; display: grid; place-items: center; border-radius: 50%; background: var(--black); color: var(--yellow); font-size: 26px; }
+  .pt-graha-card h3 { font-size: 1.15rem; font-weight: 700; color: #1f3944; }
+  .pt-graha-card h3 span { font-size: 0.85rem; font-weight: 600; color: var(--red); }
+  .pt-graha-card p { margin-top: 6px; font-size: 0.97rem; line-height: 1.55; color: #3a3a3a; }
+
+  /* ---------- CTA banner ---------- */
+  .pt-cta-banner {
+    background-color: var(--black);
+    background-image: url('https://astrowala.com/assets/2025/04/Left-Eclipse-142x300.webp');
+    background-position: left center; background-repeat: no-repeat;
+    padding: 56px 20px; text-align: center;
+  }
+  @media (min-width: 640px) { .pt-cta-banner { padding: 70px 20px; } }
+  .pt-cta-inner { margin: 0 auto; max-width: 720px; }
+  .pt-cta-banner h2 { font-size: 1.6rem; font-weight: 600; color: #fff; }
+  @media (min-width: 640px) { .pt-cta-banner h2 { font-size: 32px; } }
+  .pt-cta-banner p { margin-top: 18px; font-size: 1.9rem; font-weight: 700; line-height: 1.3; color: #fff; }
+  @media (min-width: 640px) { .pt-cta-banner p { font-size: 46px; } }
+  .pt-cta-banner p span { color: #e5baff; }
+
+  /* ---------- Benefits (graha shant) ---------- */
+  .pt-benefits-head { padding: 48px 20px 28px; }
+  .pt-benefits-head .pt-section-title { color: #031b25; }
+  .pt-benefits { background: var(--black); padding: 32px 20px; }
+  .pt-benefits-grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 640px) { .pt-benefits-grid { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 1024px) { .pt-benefits-grid { grid-template-columns: repeat(4, 1fr); } }
+  .pt-benefit-card { border-radius: 25px; background: var(--soft); padding: 20px 16px; text-align: center; }
+  .pt-benefit-card .ico { margin: 0 auto 12px; width: 72px; height: 72px; display: grid; place-items: center; border-radius: 50%; background: #fff3c2; font-size: 36px; }
+  .pt-benefit-card h3 { font-size: 1.1rem; font-weight: 700; }
+  .pt-benefit-card p { margin-top: 6px; font-size: 0.95rem; line-height: 1.5; color: #444; }
+
+  /* ---------- Abhimantrit process ---------- */
+  .pt-process { padding: 56px 20px; }
+  .pt-process .pt-section-title { color: var(--red); }
+  .pt-steps { margin-top: 32px; display: grid; gap: 18px; grid-template-columns: 1fr; counter-reset: step; }
+  @media (min-width: 768px) { .pt-steps { grid-template-columns: repeat(4, 1fr); } }
+  .pt-step { position: relative; border-radius: 16px; background: var(--soft); padding: 40px 16px 20px; text-align: center; }
+  .pt-step::before {
+    counter-increment: step; content: counter(step);
+    position: absolute; top: -18px; left: 50%; transform: translateX(-50%);
+    width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%;
+    background: var(--grad); font-weight: 800; color: #fff;
+  }
+  .pt-step h3 { font-size: 1.1rem; font-weight: 700; color: #1f3944; }
+  .pt-step p { margin-top: 8px; font-size: 0.95rem; line-height: 1.55; color: #444; }
+  .pt-fresh { margin: 28px auto 0; max-width: 760px; border-radius: 12px; background: #fff3c2; border-left: 6px solid var(--red); padding: 16px 20px; font-size: 1.1rem; font-weight: 600; line-height: 1.6; }
+
+  /* ---------- Contents + How to use ---------- */
+  .pt-two-col { padding: 0 20px 56px; }
+  .pt-two-col-grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
+  @media (min-width: 768px) { .pt-two-col-grid { grid-template-columns: 1fr 1fr; } }
+  .pt-box { border-radius: 15px; border: 2px dashed #1f3944; padding: 24px 20px; color: #1f3944; }
+  .pt-box h2 { font-size: 1.6rem; font-weight: 700; color: var(--red); text-align: center; }
+  .pt-box ul { margin-top: 18px; }
+  .pt-box li { display: flex; gap: 10px; padding: 6px 0; font-size: 1.05rem; font-weight: 600; line-height: 1.5; }
+  .pt-box li .check { flex-shrink: 0; color: var(--red); }
+  .pt-box li small { display: block; font-weight: 500; color: #555; }
+
+  /* ---------- Who should buy ---------- */
+  .pt-who { background: var(--black); padding: 56px 20px; color: #fff; }
+  .pt-who .pt-section-title { color: var(--yellow); }
+  .pt-who-grid { margin-top: 32px; display: grid; gap: 12px; grid-template-columns: 1fr; }
+  @media (min-width: 640px) { .pt-who-grid { grid-template-columns: 1fr 1fr; } }
+  .pt-who-item { display: flex; gap: 12px; align-items: flex-start; border-radius: 12px; background: var(--card); padding: 14px 16px; font-size: 1.05rem; font-weight: 600; line-height: 1.5; }
+  .pt-who-item::before { content: "✦"; color: var(--yellow); }
+
+  /* ---------- Price card ---------- */
+  .pt-buy { padding: 56px 20px; }
+  .pt-buy-card { margin: 0 auto; max-width: 560px; border-radius: 20px; border: 3px solid var(--yellow); background: #fffbea; padding: 28px 22px; text-align: center; box-shadow: 0 20px 40px rgba(0,0,0,0.08); }
+  .pt-buy-card h2 { font-size: 1.7rem; font-weight: 800; color: var(--ink); }
+  .pt-buy-card .amount { margin-top: 16px; font-size: 3rem; font-weight: 800; line-height: 1; color: var(--red); }
+  .pt-buy-card .gst { margin-top: 6px; font-size: 1.05rem; font-weight: 600; color: #555; }
+  .pt-buy-card ul { margin: 20px auto 0; max-width: 360px; text-align: left; }
+  .pt-buy-card li { display: flex; gap: 10px; padding: 5px 0; font-weight: 600; }
+  .pt-buy-card li::before { content: "✓"; color: #1a9e1a; font-weight: 800; }
+  .pt-buy-card .pt-cta-row { flex-direction: column; }
+  .pt-buy-card .pt-btn { width: 100%; }
+  .pt-btn-wa { background: linear-gradient(90deg, #1ebe5d, #25d366); }
+  .pt-btn-call { background: #fff; color: var(--ink); border: 2px solid var(--ink); box-shadow: none; }
+
+  /* ---------- Expert ---------- */
+  .pt-expert { background: var(--black); padding: 48px 20px; }
+  .pt-expert h2 { text-align: center; font-size: 1.9rem; font-weight: 600; text-transform: uppercase; color: var(--yellow); text-decoration: underline; }
+  @media (min-width: 640px) { .pt-expert h2 { font-size: 40px; } }
+  .pt-expert-grid { margin-top: 36px; display: grid; gap: 32px; grid-template-columns: 1fr; }
+  @media (min-width: 768px) { .pt-expert-grid { grid-template-columns: 1fr 1fr; align-items: center; } }
+  .pt-expert-photo { text-align: center; }
+  .pt-expert-photo img { margin: 0 auto; max-height: 480px; border-radius: 6px; object-fit: cover; }
+  .pt-expert-badge { position: relative; margin: -16px auto 0; max-width: 384px; border-radius: 12px; background: #fff; padding: 12px; }
+  .pt-expert-badge h3 { font-weight: 700; color: #c99a00; }
+  .pt-expert-badge p { font-size: 0.85rem; font-weight: 500; color: var(--red); }
+  .pt-expert-bio { font-size: 1.1rem; line-height: 1.7; color: #fff; }
+  @media (min-width: 640px) { .pt-expert-bio { font-size: 1.4rem; } }
+
+  .pt-stats { padding: 32px 20px; text-align: center; }
+  .pt-stats h2 { font-size: 1.5rem; font-weight: 600; color: #060606; }
+  @media (min-width: 640px) { .pt-stats h2 { font-size: 30px; } }
+  .pt-stats b { color: var(--red); }
+
+  /* ---------- FAQ ---------- */
+  .pt-faq {
+    background-color: var(--black);
+    background-image: url('https://astrowala.com/assets/2025/04/3-circles.webp');
+    background-size: cover; background-position: center;
+    padding: 50px 20px;
+  }
+  .pt-faq-inner { margin: 0 auto; max-width: 896px; }
+  .pt-faq h2 { text-align: center; font-size: 2.25rem; font-weight: 600; color: #fff; }
+  .pt-faq-list { margin-top: 32px; display: flex; flex-direction: column; gap: 16px; }
+  .pt-faq-item { border: 1px solid #434040; background: #343647; padding: 0 20px; color: #fff; }
+  .pt-faq-item summary { display: flex; gap: 12px; cursor: pointer; list-style: none; align-items: center; justify-content: space-between; padding: 16px 0; font-size: 1.1rem; font-weight: 600; }
+  .pt-faq-item summary::-webkit-details-marker { display: none; }
+  .pt-faq-item p { border-top: 1px solid #434040; padding: 16px 0; margin: 0; line-height: 1.6; }
+  .chevron { color: var(--yellow); transition: transform 160ms ease; flex-shrink: 0; }
+  details[open] .chevron { transform: rotate(180deg); }
+
+  /* ---------- Support ---------- */
+  .pt-support {
+    background-image: linear-gradient(115deg, rgba(3,27,50,0.96), rgba(8,78,119,0.88)), url('https://astrowala.com/assets/brand/bg.jpg');
+    background-size: cover; background-position: center;
+    padding: 48px 20px 110px; text-align: center; color: #F7F0F0;
+  }
+  @media (min-width: 768px) { .pt-support { padding-bottom: 56px; } }
+  .pt-support h2 { font-size: 1.8rem; font-weight: 700; }
+  .pt-support p { margin-top: 14px; font-size: 1.1rem; }
+  .pt-support a.link { color: #9AFF8A; text-decoration: none; }
+  .pt-support a.link:hover { text-decoration: underline; }
+  .pt-social { margin-top: 24px; display: flex; justify-content: center; gap: 12px; }
+  .pt-social a { display: flex; height: 40px; width: 40px; align-items: center; justify-content: center; border-radius: 50%; border: 2px solid #fff; }
+  .pt-social svg { height: 18px; width: 18px; fill: #fff; }
+  .pt-disclaimer { margin: 28px auto 0; max-width: 760px; font-size: 0.85rem; line-height: 1.6; color: #b9c7d3; }
+
+  /* ---------- Sticky mobile buy bar ---------- */
+  .pt-sticky {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    background: var(--black); border-top: 2px solid var(--yellow);
+    padding: 10px 16px; color: #fff;
+    transform: translateY(110%); transition: transform 220ms ease;
+  }
+  .pt-sticky.show { transform: translateY(0); }
+  .pt-sticky b { display: block; font-size: 1.3rem; color: var(--yellow); line-height: 1.1; }
+  .pt-sticky span { font-size: 0.8rem; color: #ccc; }
+  .pt-sticky .pt-btn { padding: 12px 20px; font-size: 1rem; }
+  @media (min-width: 768px) { .pt-sticky { display: none; } }
+</style>
+</head>
+<body>
+<div class="pt-page">
+
+  <div class="pt-strip">🔱 ताज़ा अभिमंत्रित पोटली — विधि-विधान से मंत्र-सिद्ध की गई 🔱</div>
+
+  <!-- ================= HERO ================= -->
+  <section class="pt-hero" id="top">
+    <div class="pt-container pt-hero-grid">
+      <div>
+        <img class="pt-hero-logo" src="https://astrowala.com/assets/brand/cropped-logo-for-website.png" alt="Astrowala" />
+        <span class="pt-hero-tag">एस्ट्रोवाला मंदीप चौहान जी द्वारा अभिमंत्रित</span>
+        <h1>नवग्रह शांति पोटली</h1>
+        <h2>नौ ग्रहों के अशुभ प्रभाव को शांत करें — जीवन में शांति, सफलता और संतुलन लाएँ</h2>
+        <ul class="pt-hero-points">
+          <li>सूर्य से केतु तक — सभी 9 ग्रहों के लिए एक ही पोटली</li>
+          <li>नवग्रह बीज मंत्रों से अभिमंत्रित</li>
+          <li>घर, दुकान, ऑफिस या तिजोरी में रखने योग्य</li>
+        </ul>
+        <div class="pt-price"><b>₹5,100</b><span>+ GST</span></div>
+        <div class="pt-cta-row">
+          <a href="#buy" class="pt-btn">अभी ऑर्डर करें</a>
+          <a href="#graha" class="pt-btn pt-btn-outline">ग्रह दोष के लक्षण देखें</a>
+        </div>
+      </div>
+
+      <div class="pt-orbit" aria-hidden="true">
+        <div class="pt-orbit-ring"></div>
+        <div class="pt-orbit-core"><img src="assets/potli.png" alt="" /></div>
+        <div class="pt-planet" style="--a:0deg">☉<small>सूर्य</small></div>
+        <div class="pt-planet" style="--a:40deg">☽<small>चंद्र</small></div>
+        <div class="pt-planet" style="--a:80deg">♂<small>मंगल</small></div>
+        <div class="pt-planet" style="--a:120deg">☿<small>बुध</small></div>
+        <div class="pt-planet" style="--a:160deg">♃<small>गुरु</small></div>
+        <div class="pt-planet" style="--a:200deg">♀<small>शुक्र</small></div>
+        <div class="pt-planet" style="--a:240deg">♄<small>शनि</small></div>
+        <div class="pt-planet" style="--a:280deg">☊<small>राहु</small></div>
+        <div class="pt-planet" style="--a:320deg">☋<small>केतु</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURES ================= -->
+  <section class="pt-features">
+    <div class="pt-container pt-features-grid">
+      <div class="pt-feature-card"><span class="ico">🪔</span><span>ताज़ा अभिमंत्रित<small>मंत्र-सिद्ध पोटली</small></span></div>
+      <div class="pt-feature-card"><span class="ico">🪐</span><span>9 ग्रह<small>एक ही उपाय</small></span></div>
+      <div class="pt-feature-card"><span class="ico">📦</span><span>घर बैठे<small>डिलीवरी</small></span></div>
+      <div class="pt-feature-card"><span class="ico">💬</span><span>WhatsApp<small>सपोर्ट</small></span></div>
+    </div>
+  </section>
+
+  <!-- ================= QUOTE ================= -->
+  <section class="pt-quote-wrap">
+    <blockquote class="pt-quote">
+      "ग्रहाधीनं जगत्सर्वम्" — यह सम्पूर्ण जगत ग्रहों के अधीन है। ग्रह शांत, तो जीवन शांत।
+      <footer>— प्राचीन ज्योतिष सूत्र</footer>
+    </blockquote>
+  </section>
+
+  <!-- ================= GRAHA KHARAB ================= -->
+  <section class="pt-problems" id="graha">
+    <div class="pt-container">
+      <h2 class="pt-section-title">ग्रह खराब हो तो क्या होता है?</h2>
+      <p class="pt-section-sub">कुंडली में जब कोई ग्रह कमज़ोर, पीड़ित या अशुभ स्थिति में होता है, तो उसका असर जीवन के अलग-अलग हिस्सों में दिखाई देता है। क्या आपको भी इनमें से कुछ अनुभव हो रहा है?</p>
+
+      <div class="pt-graha-grid">
+        <div class="pt-graha-card"><div class="pt-graha-sym">☉</div><div><h3>सूर्य <span>— मान-सम्मान</span></h3><p>पिता से मतभेद, सरकारी कामों में रुकावट, आत्मविश्वास की कमी और मेहनत के बाद भी पहचान न मिलना।</p></div></div>
+        <div class="pt-graha-card"><div class="pt-graha-sym">☽</div><div><h3>चंद्र <span>— मन</span></h3><p>मन अशांत रहना, बेवजह तनाव व चिंता, नींद न आना, भावनात्मक उतार-चढ़ाव और माता के सुख में कमी।</p></div></div>
+        <div class="pt-graha-card"><div class="pt-graha-sym">♂</div><div><h3>मंगल <span>— साहस</span></h3><p>गुस्सा और विवाद, भूमि-संपत्ति के झगड़े, भाइयों से अनबन और विवाह में देरी (मांगलिक दोष)।</p></div></div>
+        <div class="pt-graha-card"><div class="pt-graha-sym">☿</div><div><h3>बुध <span>— बुद्धि व व्यापार</span></h3><p>निर्णय लेने में भ्रम, व्यापार में घाटा, बातचीत में गलतफहमी और पढ़ाई में मन न लगना।</p></div></div>
+        <div class="pt-graha-card"><div class="pt-graha-sym">♃</div><div><h3>गुरु <span>— भाग्य</span></h3><p>भाग्य का साथ न देना, विवाह व संतान से जुड़ी बाधाएँ, सही मार्गदर्शन न मिलना और धन का न टिकना।</p></div></div>
+        <div class="pt-graha-card"><div class="pt-graha-sym">♀</div><div><h3>शुक्र <span>— सुख व संबंध</span></h3><p>दांपत्य जीवन में कलह, प्रेम संबंधों में दूरी, सुख-सुविधाओं में कमी और आकर्षण घटना।</p></div></div>
+        <div class="pt-graha-card"><div class="pt-graha-sym">♄</div><div><h3>शनि <span>— कर्म</span></h3><p>मेहनत का फल देर से मिलना, नौकरी में अड़चन, साढ़ेसाती व ढैया का कष्ट और काम में लगातार देरी।</p></div></div>
+        <div class="pt-graha-card"><div class="pt-graha-sym">☊</div><div><h3>राहु <span>— भ्रम</span></h3><p>अचानक नुकसान, गलत संगत, डर व बुरे सपने, धोखा मिलना और दिमाग में उलझन बने रहना।</p></div></div>
+        <div class="pt-graha-card"><div class="pt-graha-sym">☋</div><div><h3>केतु <span>— बाधाएँ</span></h3><p>बिना कारण रुकावटें, काम अधूरे रह जाना, अकेलापन और किसी भी चीज़ में मन न टिकना।</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA BANNER ================= -->
+  <section class="pt-cta-banner">
+    <div class="pt-cta-inner">
+      <h2>ग्रहों से लड़ना नहीं — उन्हें शांत करना है</h2>
+      <p>एक पोटली, नौ ग्रह <span>और जीवन में नया संतुलन</span></p>
+      <div class="pt-cta-row"><a href="#buy" class="pt-btn">पोटली मंगवाएँ — ₹5,100 + GST</a></div>
+    </div>
+  </section>
+
+  <!-- ================= GRAHA SHANT ================= -->
+  <section>
+    <div class="pt-benefits-head pt-container">
+      <h2 class="pt-section-title">ग्रह शांत होने पर जीवन में क्या बदलता है?</h2>
+      <p class="pt-section-sub">नवग्रह शांति पोटली ग्रहों की ऊर्जा को संतुलित करने का एक सरल उपाय है। श्रद्धा और नियम से रखने पर आप ये बदलाव महसूस कर सकते हैं —</p>
+    </div>
+    <div class="pt-benefits">
+      <div class="pt-container pt-benefits-grid">
+        <div class="pt-benefit-card"><div class="ico">🧘</div><h3>मन की शांति</h3><p>तनाव और बेचैनी कम, सोच में स्पष्टता।</p></div>
+        <div class="pt-benefit-card"><div class="ico">📈</div><h3>करियर व व्यापार में प्रगति</h3><p>रुकी हुई तरक्की को गति, नए अवसर।</p></div>
+        <div class="pt-benefit-card"><div class="ico">💰</div><h3>धन का ठहराव</h3><p>फालतू खर्चों पर रोक, बचत में बढ़ोतरी।</p></div>
+        <div class="pt-benefit-card"><div class="ico">🏡</div><h3>पारिवारिक सुख</h3><p>घर में कलह कम, रिश्तों में मिठास।</p></div>
+        <div class="pt-benefit-card"><div class="ico">🔓</div><h3>रुके काम बनना</h3><p>बार-बार आने वाली बाधाएँ धीरे-धीरे हटना।</p></div>
+        <div class="pt-benefit-card"><div class="ico">🛡️</div><h3>नकारात्मक ऊर्जा से रक्षा</h3><p>घर व कार्यस्थल का वातावरण सकारात्मक।</p></div>
+        <div class="pt-benefit-card"><div class="ico">☀️</div><h3>आत्मविश्वास व सम्मान</h3><p>समाज और कार्यक्षेत्र में पहचान।</p></div>
+        <div class="pt-benefit-card"><div class="ico">⚖️</div><h3>ग्रहों में संतुलन</h3><p>साढ़ेसाती, ढैया व ग्रह दोष के प्रभाव में राहत।</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABHIMANTRIT ================= -->
+  <section class="pt-process">
+    <div class="pt-container">
+      <h2 class="pt-section-title">पोटली अभी-अभी अभिमंत्रित की गई है</h2>
+      <p class="pt-section-sub">यह कोई साधारण पोटली नहीं है। हर पोटली को शुभ मुहूर्त में पूरे विधि-विधान से मंत्र-सिद्ध किया गया है।</p>
+
+      <div class="pt-steps">
+        <div class="pt-step"><h3>सामग्री का चयन</h3><p>नौ ग्रहों से जुड़ी शुद्ध सामग्री को चुनकर पोटली तैयार की जाती है।</p></div>
+        <div class="pt-step"><h3>संकल्प व पूजन</h3><p>शुभ मुहूर्त में संकल्प लेकर नवग्रह पूजन किया जाता है।</p></div>
+        <div class="pt-step"><h3>बीज मंत्र जाप</h3><p>हर ग्रह के बीज मंत्र के जाप से पोटली को अभिमंत्रित किया जाता है।</p></div>
+        <div class="pt-step"><h3>आप तक पहुँच</h3><p>सिद्ध पोटली को सावधानी से पैक कर आपके पते पर भेजा जाता है।</p></div>
+      </div>
+
+      <p class="pt-fresh">✨ ताज़ा अभिमंत्रित: पोटली अभी मंत्रित की गई है, इसलिए यह पूरी ऊर्जा के साथ आपके पास पहुँचेगी — बस इसे बताई गई विधि से स्थापित करें।</p>
+    </div>
+  </section>
+
+  <!-- ================= CONTENTS + HOW TO USE ================= -->
+  <section class="pt-two-col">
+    <div class="pt-container pt-two-col-grid">
+      <div class="pt-box">
+        <h2>पोटली में क्या है?</h2>
+        <!-- TODO: पोटली की असली सामग्री से मिलान करके यह सूची कन्फर्म करें -->
+        <ul>
+          <li><span class="check">✓</span><span>नवधान्य — नौ ग्रहों के नौ अनाज<small>गेहूँ, चावल, मसूर, मूंग, चना, सफ़ेद राजमा, काले तिल, उड़द, कुलथी</small></span></li>
+          <li><span class="check">✓</span><span>नवग्रह यंत्र / प्रतीक</span></li>
+          <li><span class="check">✓</span><span>अभिमंत्रित लाल मखमली पोटली</span></li>
+          <li><span class="check">✓</span><span>स्थापना व उपयोग विधि</span></li>
+        </ul>
+      </div>
+      <div class="pt-box">
+        <h2>कैसे उपयोग करें?</h2>
+        <ul>
+          <li><span class="check">1.</span><span>रविवार या गुरुवार की सुबह स्नान करके पोटली को हाथ में लें।</span></li>
+          <li><span class="check">2.</span><span>अपने ईष्ट देव और नवग्रहों का ध्यान करते हुए अपनी मनोकामना बोलें।</span></li>
+          <li><span class="check">3.</span><span>"ॐ नवग्रहाय नमः" मंत्र का 11 बार जाप करें।</span></li>
+          <li><span class="check">4.</span><span>पोटली को पूजा स्थान, तिजोरी, कैश बॉक्स या दुकान के गल्ले में रखें।</span></li>
+          <li><span class="check">5.</span><span>नियमित रूप से धूप-दीप दिखाएँ और श्रद्धा बनाए रखें।</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHO SHOULD BUY ================= -->
+  <section class="pt-who">
+    <div class="pt-container">
+      <h2 class="pt-section-title">यह पोटली किसके लिए है?</h2>
+      <div class="pt-who-grid">
+        <div class="pt-who-item">जिनकी कुंडली में ग्रह दोष या अशुभ ग्रह हैं</div>
+        <div class="pt-who-item">जो शनि की साढ़ेसाती या ढैया से गुज़र रहे हैं</div>
+        <div class="pt-who-item">जिनके काम बार-बार बनते-बनते रुक जाते हैं</div>
+        <div class="pt-who-item">व्यापारी — दुकान, ऑफिस या फैक्ट्री के लिए</div>
+        <div class="pt-who-item">जो नए घर या नए व्यापार की शुरुआत कर रहे हैं</div>
+        <div class="pt-who-item">जिनके घर में अशांति या कलह बनी रहती है</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BUY ================= -->
+  <section class="pt-buy" id="buy">
+    <div class="pt-buy-card">
+      <h2>अभिमंत्रित नवग्रह शांति पोटली</h2>
+      <div class="amount">₹5,100</div>
+      <div class="gst">+ GST</div>
+      <ul>
+        <li>सभी 9 ग्रहों के लिए एक पोटली</li>
+        <li>मंदीप चौहान जी द्वारा अभिमंत्रित</li>
+        <li>स्थापना व उपयोग विधि साथ में</li>
+        <li>WhatsApp पर ऑर्डर व सपोर्ट</li>
+      </ul>
+      <div class="pt-cta-row">
+        <a class="pt-btn pt-btn-wa js-order" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 448 512" fill="#fff" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+          WhatsApp पर ऑर्डर करें
+        </a>
+        <a class="pt-btn pt-btn-call js-call" href="#">📞 कॉल करें: <span class="js-phone-label"></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERT ================= -->
+  <section class="pt-expert">
+    <h2>किसके द्वारा अभिमंत्रित</h2>
+    <div class="pt-container pt-expert-grid">
+      <div class="pt-expert-photo">
+        <img src="https://astrowala.com/assets/2025/04/Untitled-design-22.png" alt="Astrowala Mandiip Chauhan" loading="lazy" />
+        <div class="pt-expert-badge">
+          <h3>ASTROWALA MANDIIP CHAUHAN</h3>
+          <p>CERTIFIED ASTROLOGER &amp; VASTU COACH</p>
+        </div>
+      </div>
+      <p class="pt-expert-bio">प्रसिद्ध भारतीय व्यावसायिक ज्योतिष वेबसाइट के मालिक ज्योतिषी मंदीप चौहान हैं जो अंतर्राष्ट्रीय ज्योतिष महासंघ इंक के पंजीकृत सदस्य हैं। वह एक प्रमाणित ज्योतिषी और वास्तु सलाहकार हैं। वह वैदिक ज्योतिष, वास्तु, एस्ट्रो-वास्तु, अंक ज्योतिष, रेकी, लाल किताब और नाड़ी ज्योतिष के विशेषज्ञ हैं।</p>
+    </div>
+  </section>
+
+  <section class="pt-stats">
+    <h2>अब तक <b>1,35,000+</b> विद्यार्थियों और साधकों का भरोसा</h2>
+    <div class="pt-cta-row"><a href="#buy" class="pt-btn">हाँ, मुझे नवग्रह शांति पोटली चाहिए</a></div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="pt-faq">
+    <div class="pt-faq-inner">
+      <h2>FAQS</h2>
+      <div class="pt-faq-list">
+        <details class="pt-faq-item">
+          <summary><span>क्या पोटली सच में अभिमंत्रित है?</span><span class="chevron">▾</span></summary>
+          <p>हाँ। हर पोटली को शुभ मुहूर्त में नवग्रह बीज मंत्रों से अभिमंत्रित किया गया है। पोटली अभी-अभी मंत्रित की गई है।</p>
+        </details>
+        <details class="pt-faq-item">
+          <summary><span>पोटली कहाँ रखनी चाहिए?</span><span class="chevron">▾</span></summary>
+          <p>पूजा स्थान, तिजोरी, कैश बॉक्स या दुकान/ऑफिस के गल्ले में। पोटली को साफ़ और पवित्र स्थान पर रखें।</p>
+        </details>
+        <details class="pt-faq-item">
+          <summary><span>क्या एक पोटली सभी 9 ग्रहों के लिए काम करती है?</span><span class="chevron">▾</span></summary>
+          <p>हाँ, यह पोटली सूर्य, चंद्र, मंगल, बुध, गुरु, शुक्र, शनि, राहु और केतु — सभी नौ ग्रहों की शांति के लिए तैयार की गई है।</p>
+        </details>
+        <details class="pt-faq-item">
+          <summary><span>कीमत कितनी है?</span><span class="chevron">▾</span></summary>
+          <p>नवग्रह शांति पोटली की कीमत ₹5,100 + GST है।</p>
+        </details>
+        <details class="pt-faq-item">
+          <summary><span>ऑर्डर कैसे करें?</span><span class="chevron">▾</span></summary>
+          <p>"WhatsApp पर ऑर्डर करें" बटन दबाएँ या हमें कॉल करें। हमारी टीम आपको पेमेंट और डिलीवरी की पूरी जानकारी देगी।</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SUPPORT ================= -->
+  <section class="pt-support">
+    <h2>कोई सवाल है? हमसे बात करें</h2>
+    <p><span aria-hidden="true">📧 </span><b>Email:</b> <a class="link" href="mailto:astrowala3@gmail.com">astrowala3@gmail.com</a></p>
+    <p><span aria-hidden="true">📞 </span><b>Phone:</b> <a class="link js-call" href="#"><span class="js-phone-label"></span></a></p>
+    <div class="pt-social">
+      <a href="https://www.facebook.com/astrowala5" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+      <a href="https://www.youtube.com/@AstroWala" target="_blank" rel="noopener" aria-label="Youtube"><svg viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+      <a href="https://www.instagram.com/astrowala5/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+    </div>
+    <p class="pt-disclaimer">अस्वीकरण: नवग्रह शांति पोटली वैदिक ज्योतिष परंपरा और आस्था पर आधारित एक आध्यात्मिक उपाय है। इसके परिणाम व्यक्ति की कुंडली, श्रद्धा और कर्म पर निर्भर करते हैं। यह किसी भी चिकित्सीय, कानूनी या वित्तीय सलाह का विकल्प नहीं है।</p>
+  </section>
+
+  <!-- Sticky buy bar (mobile only) -->
+  <div class="pt-sticky" id="pt-sticky">
+    <div><b>₹5,100</b><span>+ GST · अभिमंत्रित पोटली</span></div>
+    <a href="#buy" class="pt-btn">ऑर्डर करें</a>
+  </div>
+
+</div>
+
+<script>
+  // ---- Order settings: change these in one place ----
+  var CONFIG = {
+    phone: "919115717321",            // WhatsApp / call number (country code + number, no +)
+    phoneLabel: "+91-9115717321",
+    // Set a payment link here (e.g. "https://imjo.in/XXXXXX") to send the main button there instead of WhatsApp.
+    paymentLink: "",
+    whatsappText: "नमस्ते, मुझे अभिमंत्रित नवग्रह शांति पोटली (₹5,100 + GST) ऑर्डर करनी है।"
+  };
+
+  (function () {
+    var orderUrl = CONFIG.paymentLink ||
+      "https://wa.me/" + CONFIG.phone + "?text=" + encodeURIComponent(CONFIG.whatsappText);
+
+    document.querySelectorAll(".js-order").forEach(function (a) { a.href = orderUrl; });
+    document.querySelectorAll(".js-call").forEach(function (a) { a.href = "tel:+" + CONFIG.phone; });
+    document.querySelectorAll(".js-phone-label").forEach(function (s) { s.textContent = CONFIG.phoneLabel; });
+
+    // Show the sticky bar after the hero, hide it when the buy card is on screen.
+    var sticky = document.getElementById("pt-sticky");
+    var hero = document.getElementById("top");
+    var buy = document.getElementById("buy");
+    if (!("IntersectionObserver" in window)) return;
+    var heroVisible = true, buyVisible = false;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.target === hero) heroVisible = e.isIntersecting;
+        if (e.target === buy) buyVisible = e.isIntersecting;
+      });
+      sticky.classList.toggle("show", !heroVisible && !buyVisible);
+    });
+    io.observe(hero);
+    io.observe(buy);
+  })();
+</script>
+</body>
+</html>
